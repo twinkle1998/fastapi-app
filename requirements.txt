@@ -1,0 +1,21 @@
+# Core
+numpy
+pandas
+scikit-learn
+
+# ML Models
+xgboost
+catboost
+optuna
+joblib
+
+# API
+fastapi
+uvicorn
+
+# Visualization (if needed inside Docker)
+matplotlib
+seaborn
+
+# HTTP requests (used in data_fetcher)
+requests

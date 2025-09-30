@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "at2weather"
+version = "0.1.0"
+description = "Weather forecasting ML package for Advanced ML AT2 assignment"
+authors = [
+  { name="Twinkle Kashyap", email="twinklekashyap1998@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "xgboost",
+    "catboost",
+    "optuna",
+    "joblib",
+    "matplotlib",
+    "seaborn",
+    "requests"
+]
