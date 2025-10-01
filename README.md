@@ -9,22 +9,22 @@ Includes:
 - Metrics, persistence, and plotting helpers
 
 
-API Deployment
+## API Deployment
 
 The FastAPI app is in a separate repo:
-twinkle1998/fastapi-app
+### twinkle1998/fastapi-app
 
-Endpoints:
+### Endpoints:
 	•	/ → Overview + endpoints.
 	•	/health/ → Health check.
 	•	/predict/rain/?date=YYYY-MM-DD → Predict rain in 7 days.
 	•	/predict/precipitation/fall/?date=YYYY-MM-DD → Predict 3-day precipitation sum.
 
-Deployed on Render → public endpoint available after deployment.
+## Deployed on Render → public endpoint available after deployment.
 
 ⸻
 
- Troubleshooting
+ ### Troubleshooting
 
 Git Issues
 	•	CRLF/LF warnings: harmless, Windows auto-converts line endings.
@@ -35,7 +35,7 @@ git push -u origin main --force
 
 
 
-TestPyPI Publishing
+### TestPyPI Publishing
 	•	Error “File already exists” → bump version in pyproject.toml.
 
 [tool.poetry]
