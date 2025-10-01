@@ -1,2 +1,4 @@
 Username: twinkle1998
 URL: https://github.com/twinkle1998/fastapi-app
+Rain or not :- https://fastapi-app-maxk.onrender.com/predict/rain/?date=2024-06-30
+Precipitation fall :- https://fastapi-app-maxk.onrender.com/predict/precipitation/fall/?date=2025-09-01
